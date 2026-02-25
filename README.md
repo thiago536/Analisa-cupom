@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="Icon/icon.ico" width="120px" alt="Logo" />
+  <img src="assets/logositegentech.jpeg" width="120px" alt="Logo" />
   <br>
   Analisa Cupom
 </h1>
@@ -23,14 +23,10 @@
 - **Detecção Avançada** — Destaca automaticamente os alertas de quebra de sequência mais críticos: *Notas Inutilizadas na Sefaz, mas autorizadas isoladamente pelo ERP da empresa*.
 
 ## 🚀 Demo
-### 🖥️ Demonstração
 
-| Antes | Depois |
+| Reconciliação Manual | Análise Automática |
 |-------|--------|
-| [📸 Insira print da reconciliação manual ou planilha perdida] | [📸 Insira print do Analisa Cupom identificando falhas de Firebird e PostgreSQL] |
-
-### ▶️ Fluxo completo
-*[🎥 Insira um GIF ou vídeo curto demonstrando a importação do PDF local e validação com o banco de dados]*
+| <img src="assets/Manual.png" alt="Reconciliação Manual" width="400"/> | <img src="assets/automatico.png" alt="Análise Automática" width="400"/> |
 
 ## 🛠️ Stack
 | Camada | Tecnologia |
@@ -68,5 +64,5 @@ Analisa-cupom/
 ├── firebird_isql.py     # Utilitário de resiliência e adaptação p/ drives Firebird 32x/64x
 ├── logging_utils.py     # Monitoramento e output de logs locais
 ├── requirements.txt     # Dependências restritas em produção
-└── Icon/                # Assets gráficos e binários
+└── assets/              # Imagens e dados da página
 ```
